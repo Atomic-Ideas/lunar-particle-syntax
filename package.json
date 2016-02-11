@@ -1,0 +1,17 @@
+{
+  "name": "lunar-one-syntax",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "A dark syntax theme based on one dark",
+  "keywords": [
+    "dark",
+    "lunar",
+    "particle",
+    "syntax"
+  ],
+  "repository": "https://github.com/thiagomallon/lunar-particle-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
