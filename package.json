@@ -9,7 +9,7 @@
     "particle",
     "syntax"
   ],
-  "repository": "https://github.com/AtomicStuff/lunar-particle-syntax",
+  "repository": "https://github.com/Atomic-Ideas/lunar-particle-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
