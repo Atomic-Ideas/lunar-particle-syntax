@@ -21,4 +21,4 @@ Installation
 Preview
 -----------
 
-![Screenshot](https://raw.githubusercontent.com/Atomic-Ideas/screenshots/master/lunar-particle-ui.png.png)
+![Screenshot](https://raw.githubusercontent.com/Atomic-Ideas/screenshots/master/lunar-particle-ui.png)
