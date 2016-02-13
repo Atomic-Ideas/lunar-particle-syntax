@@ -1,6 +1,20 @@
 .source.js {
+  .storage {
+    &.type {
+      &.class.jsdoc {
+        color: rgb(5, 142, 43);
+      }
+    }
+  }
   .keyword.operator {
-    color: @hue-1;
+    color: rgb(48, 164, 200);
+    &.assignment {
+      color: gainsboro;
+    }
+    &.logical {
+      color: rgb(5, 142, 43);
+      font-weight: bolder;
+    }
 
     // keywords are definded in https://github.com/atom/language-javascript/blob/master/grammars/javascript.cson
     // search "instanceof" for location

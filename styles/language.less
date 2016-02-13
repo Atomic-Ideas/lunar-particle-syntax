@@ -1,113 +1,105 @@
 // Language syntax highlighting
 
 .comment {
-  color: @mono-3;
+  color: @gray;
   font-style: italic;
 
   .markup.link {
-    color: @mono-3;
+    color: @blue;
   }
 }
 
 .entity {
-
+  color: #89BDFF;
   &.name.type {
-    color: @hue-6-2;
+    color: #89BDFF;
   }
 
   &.other.inherited-class {
-    color: @hue-4;
+    color: #89BDFF;
   }
 }
 
 .keyword {
-  color: @hue-3;
+  color: #E28964;
 
   &.control {
-    color: @hue-3;
+    color: #E28964;
   }
 
   &.operator {
-    color: @mono-1;
-  }
-
-  &.other.special-method {
-    color: @hue-2;
-  }
-
-  &.other.unit {
-    color: @hue-6;
+    color: #E28964;
   }
 }
 
 .storage {
-  color: @hue-3;
+  color: #99CF50;
 
   &.type {
     &.annotation,
     &.primitive {
-      color: @hue-3;
+      color: #569500;
     }
   }
 
   &.modifier {
     &.package,
     &.import {
-      color: @mono-1;
+      color: #99CF50;
     }
   }
 }
 
 .constant {
-  color: @hue-6;
+  color: #3387CC;
 
   &.variable {
-    color: @hue-6;
+    color: #3387CC;
   }
 
   &.character.escape {
-    color: @hue-1;
+    color: #3387CC;
   }
 
   &.numeric {
-    color: @hue-6;
+    color: #d554e4;
   }
 
   &.other.color {
-    color: @hue-1;
+    color: #3387CC;
   }
 
   &.other.symbol {
-    color: @hue-1;
+    color: #3387CC;
   }
 }
 
 .variable {
-  color: @hue-5;
+  color: #3E87E3;
 
   &.interpolation {
-    color: @hue-5-2;
+    color: #3E87E3;
   }
 
   &.parameter {
-    color: @mono-1;
+    color: #3E87E3;
+  }
+
+  &.other.property {
+    color: rgb(0, 178, 255);
   }
 }
 
 .string {
-  color: @hue-4;
+  color: rgb(238, 158, 56);
 
 
   &.regexp {
-    color: @hue-1;
-
-    .source.ruby.embedded {
-      color: @hue-6-2;
-    }
+    color: rgb(167, 66, 196);
   }
 
   &.other.link {
-    color: @hue-5;
+    color: @blue;
   }
 }
 
@@ -157,7 +149,7 @@
 
 .support {
   &.class {
-    color: @hue-6-2;
+    color: rgb(254, 191, 52);
   }
 
   &.type {
@@ -171,16 +163,20 @@
       color: @hue-2;
     }
   }
+
+  &.constant {
+    color: #CF6A4C;
+  }
 }
 
 .entity {
   &.name.function {
-    color: @hue-2;
+    color: gainsboro;
   }
 
   &.name.class,
   &.name.type.class {
-    color: @hue-6-2;
+    color: rgb(247, 214, 36);
   }
 
   &.name.section {
@@ -252,11 +248,12 @@
 
 .invalid {
   &.deprecated {
-    color: @syntax-deprecated-fg !important;
+    color: #FD5FF1;
+    font-style: italic;
     background-color: @syntax-deprecated-bg !important;
   }
   &.illegal {
-    color: @syntax-illegal-fg !important;
+    color: #FD5FF1;
     background-color: @syntax-illegal-bg !important;
   }
 }
