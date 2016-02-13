@@ -1,12 +1,12 @@
 Lunar Particle Syntax Theme
 =========
 Dark theme emphasizing the Universe ! Let's code with stars, matey!
+A UI spacial theme for galaxy hitchhikers.
 
 Description
 ----------------
-This syntax theme was created to emphasize the graphics effects of Lunar Particle UI Theme. I love dark sunburst background and the One Dark
-themes, so you will find a lot of these themes here, but with my changes and preferences. Actually I get what I love from sunburst syntax theme
-to create a new set of syntax colors.
+This syntax theme was created to emphasize the graphics effects of Lunar Particle UI Theme. It is a re-edition inspired in the Sunburst
+theme.
 
 **For a better experience use it with Lunar Particle UI**
 
