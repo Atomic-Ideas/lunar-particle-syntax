@@ -2,12 +2,18 @@
   "name": "lunar-particle-syntax",
   "theme": "syntax",
   "version": "0.3.4",
-  "description": "A dark syntax theme based on one dark",
+  "description": "A dark syntax theme.",
   "keywords": [
     "dark",
     "lunar",
     "particle",
-    "syntax"
+    "syntax",
+    "thiago mallon",
+    "mallon",
+    "atom",
+    "universe",
+    "earth",
+    "javascript"
   ],
   "repository": "https://github.com/Atomic-Ideas/lunar-particle-syntax",
   "license": "MIT",
